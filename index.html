@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BowSonic — Emulador Retro de Qbert para Apple Watch</title>
+    <meta name="description" content="Revive la experiencia nostálgica del juego clásico de los 90 directo en tu muñeca. Emulación de alta fidelidad optimizada para el Digital Crown de tu Apple Watch.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-glows">
+        <div class="bg-glow-1"></div>
+        <div class="bg-glow-2"></div>
+    </div>
+
+    <!-- Header / Nav -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo-area">
+                <img src="assets/icon.png" alt="BowSonic Logo" class="logo-img">
+                <span class="logo-text">BowSonic</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="support.html">Soporte</a></li>
+                    <li><a href="privacy.html">Privacidad</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="container hero">
+            <div class="hero-content">
+                <span class="hero-badge">Emulador Wearable 1-Bit</span>
+                <h1>El Clásico Arcade <span>En tu Muñeca</span></h1>
+                <p>BowSonic replica con precisión pixel-perfect el clásico juego de saltos en pirámides LCD de los años 90. Diseñado exclusivamente para watchOS, combinando controles táctiles y el uso de la corona digital.</p>
+                <div class="hero-buttons">
+                    <a href="https://apps.apple.com/app/id6790442871" class="btn btn-primary" id="btn-download">Descargar en App Store</a>
+                    <a href="#features" class="btn btn-secondary">Saber más</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Using gameplay screenshot inside a wrapper -->
+                <img src="assets/screen1.png" alt="Pantalla de Juego de BowSonic en Apple Watch" id="hero-img">
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="container features">
+            <h2 class="section-title">Características Principales</h2>
+            <p class="section-subtitle">Todo el encanto y la jugabilidad de las consolas de mano retro de cristal líquido directamente en tu Apple Watch.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">👑</div>
+                    <h3>Control de Corona Digital</h3>
+                    <p>Mueve a BowBert de forma fluida a través de la pirámide de cubos usando giros precisos con el Digital Crown de tu reloj.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👾</div>
+                    <h3>Gráficos Pixel-Perfect</h3>
+                    <p>Estilo LCD de 1 bit de alta fidelidad, fiel al diseño de hardware original con animaciones fluidas a través de SpriteKit.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔊</div>
+                    <h3>Audio Retro Nativo</h3>
+                    <p>Efectos de sonido arcade combinados con feedback háptico (vibraciones del motor Taptic Engine) para una experiencia inmersiva.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Tabla de Records Local</h3>
+                    <p>Compite contigo mismo por superar tu propio puntaje récord. Los puntajes se guardan local y de forma segura en watchOS.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Dificultad Dinámica</h3>
+                    <p>Múltiples niveles de dificultad infinita con incrementos en la velocidad de spawn de Coily y los demás enemigos tradicionales.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔋</div>
+                    <h3>Optimizado para Batería</h3>
+                    <p>Optimización nativa en Swift y SpriteKit diseñada para consumir el mínimo de batería en modelos de Apple Watch antiguos y nuevos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery">
+            <div class="container">
+                <h2 class="section-title">Capturas de Pantalla</h2>
+                <p class="section-subtitle">Explora la interfaz retro neon y los modos de juego de BowSonic.</p>
+                
+                <div class="screenshots-carousel" id="carousel">
+                    <div class="screenshot-item">
+                        <img src="assets/screen1.png" alt="Gameplay de BowSonic">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/screen2.png" alt="Controles táctiles diagonales">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/screen3.png" alt="Tabla de puntuación record">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/screen4.png" alt="Estilo LCD retro clásico">
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/screen5.png" alt="Ficha promocional BowSonic">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <span class="logo-text">BowSonic</span>
+                    <p>Emulando los mejores recuerdos arcade en tu muñeca de forma segura, local y libre de publicidad.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Producto</h4>
+                        <ul>
+                            <li><a href="#features">Características</a></li>
+                            <li><a href="https://apps.apple.com/app/id6790442871">Descargar</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal y Soporte</h4>
+                        <ul>
+                            <li><a href="support.html">Soporte Técnico</a></li>
+                            <li><a href="privacy.html">Política de Privacidad</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BowSonic. Todos los derechos reservados. Desarrollado por BowtieLabs.</p>
+                <p>Apple Watch, watchOS y iOS son marcas comerciales de Apple Inc.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
